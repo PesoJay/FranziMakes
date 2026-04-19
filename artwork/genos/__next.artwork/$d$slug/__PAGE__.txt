@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+:HL["/images/0.jpg","image"]
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"p-6 max-w-3xl mx-auto","children":[["$","img",null,{"src":"/images/0.jpg","alt":"Genos","className":"w-full rounded-lg"}],["$","h1",null,{"className":"text-2xl mt-4","children":"Genos"}],["$","p",null,{"children":2024}],["$","p",null,{"className":"mt-2","children":"Genos getting taught a lesson"}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Nr7Je7SW1Zj9oF6T30v_9"}
+4:null
