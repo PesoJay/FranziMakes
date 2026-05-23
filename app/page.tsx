@@ -1,10 +1,24 @@
-import Gallery from "@/components/Gallery";
+'use client'
+import { useState } from 'react';
+import Header from '@/components/Header';
+import { HomePage } from '@/components/HomePage';
 
-export default function Home() {
+export default function App() {
+  const [currentPage, setCurrentPage] = useState('home');
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'home':
+        return <HomePage />;
+      default:
+        return <HomePage />;
+    }
+  };
+
   return (
-    <main className="p-6 max-w-5xl mx-auto">
-      <h1 className="text-3xl mb-6">Franzis art</h1>
-      <Gallery />
-    </main>
+    <div className="min-h-screen bg-white">
+      <Header currentPage={currentPage} onNavigate={setCurrentPage} />
+      {renderPage()}
+    </div>
   );
 }
